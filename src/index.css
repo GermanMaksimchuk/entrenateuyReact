@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.footer2{
+  color: azure;
+  background: rgb(37, 108, 189);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navimg{
+  background: rgb(37, 108, 189);
+
+}
+
+.navbar-brand{
+  font-size: 0, 1rem;
+  font-family: "Fredoka One", cursive;
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1vh;
+
+}
+.nav-link{
+   font-weight: 600;
+   color:black;
+ 
+}
+.banner2{
+  width: 100%;
+  height: 100%;
 }
