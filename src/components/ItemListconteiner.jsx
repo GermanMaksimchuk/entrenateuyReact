@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useParams} from "react-router-dom";
+import ItemList from "./ItemList";
+import arrayProductos from "./arrayProductos.json";
 
-const ItemListConinter = ({greeting}) =>{       
-return(
+const ItemListContainer = () => {
+    const [items, setItems] = useState([]);
+    const {id} = useParams();
 
-<div className="row">
-    <div className="col">
+    useEffect(() => {
+        const promesa = new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos);
+            }, 2000)
+        });
 
-    <p>{greeting}</p>
+        promesa.then((data) => {
+            setItems(data);
+        })
+    }, [id]);
 
-    </div>
-
-</div>
-
-)
- 
+    return (
+        <div className="container py-5">
+            <ItemList items={items} />
+        </div>
+    )
 }
 
-export default ItemListConinter;
+export default ItemListContainer;
