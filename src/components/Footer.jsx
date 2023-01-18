@@ -39,10 +39,7 @@ const Footer = () => {
 
       <div className="col">
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2313.5525662119608!2d-56.172381894973654!3d-34.91002753064753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ba8681bdc1%3A0x7f7a6e730d4c05ba!2sJuan%20D.%20Jackson%201072%2C%2011200%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1656858287481!5m2!1ses-419!2suy"
-          width="400" height="250"
-        ></iframe>
+       
 
       </div>
 
