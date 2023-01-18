@@ -26,7 +26,7 @@ const ItemDetailConteiner = () => {
                 console.log("Error! No se encontró el Documento!");
             }
         });
-    }, []);
+    }, [id]);
 
     return (
 

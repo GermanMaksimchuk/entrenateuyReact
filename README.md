@@ -12,4 +12,4 @@ Luego cuenta con un Banner con una imagen carcateristica de la empresa.
 
 Todos los productos aparecen en la grilla principal sin filtros.
 
-El Footer cuenta con datos de contacto , redes sociales y un mapa de donde se encuenta la tienda.
+El Footer cuenta con datos de contacto y redes sociales.
