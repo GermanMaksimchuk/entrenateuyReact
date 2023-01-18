@@ -7,7 +7,7 @@ const Banner = () => {
         <div class="container-fluid " >
         <div className="row   ">
             <div className="col ">
-                <img src={"/images/banner2.jpg"} alt="Banner" ></img>
+                <img src={"/images/banner2.jpg"} alt="Bannerd" className="Banner2" ></img>
             </div>
         </div>
         </div>
